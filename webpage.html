@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+h1{
+animation: movedown 1s linear 1;
+animation-delay: 1s;
+visibility: hidden;
+animation-fill-mode: forwards;
+}
+@keyframes movedown
+{ 
+0%
+{
+transform: translateY(-100px);
+visibility: visible;
+}
+100%
+{
+transform: translateY(0);
+visibility: visible;
+}
+}
+</style>
+<title>web page animation </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sky">
+<div class="highway"></div>
+<div class="city"></div>
+<div class="car">
+<img src="car.png">
+</div>
+<div class="wheel">
+<img src="wheel.png" class="back-wheel">
+<img src="wheel.png" class="front-wheel">
+</div>
+<h1><b><i> car running on road </i></b></h1>
+</div>
+</body>
+</html>
